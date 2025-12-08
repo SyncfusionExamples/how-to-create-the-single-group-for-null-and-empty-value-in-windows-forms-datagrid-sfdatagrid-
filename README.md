@@ -2,7 +2,7 @@
 
 This example illustrates how to create the single group for null and empty value in [WinForms DataGrid](https://www.syncfusion.com/winforms-ui-controls/datagrid) (SfDataGrid).
 
-By default, empty and null values are created the separate groups in `SfDataGrid`. You can able to create the single group for empty and null value by using [KeySelector](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.GroupColumnDescription.html#Syncfusion_WinForms_DataGrid_GroupColumnDescription_KeySelector) in [GroupColumnDescriptions](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.GroupColumnDescription.html).
+By default, empty and null values are created the separate groups in `SfDataGrid`. You can able to create the single group for empty and null value by using [KeySelector](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.GroupColumnDescription.html#Syncfusion_WinForms_DataGrid_GroupColumnDescription_KeySelector) in [GroupColumnDescription](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.GroupColumnDescription.html).
 
 ```csharp
 this.sfDataGrid.GroupColumnDescriptions.Add(new GroupColumnDescription()
